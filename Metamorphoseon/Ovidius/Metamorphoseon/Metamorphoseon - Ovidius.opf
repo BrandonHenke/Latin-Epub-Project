@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">3</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d0f21ec7-d06c-412b-9c4d-eda878b31c61</dc:identifier>
+        <dc:title>Metamorphoseon</dc:title>
+        <dc:creator opf:file-as="Ovidius" opf:role="aut">Ovidius</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.37.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2004-01-29T05:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p&gt;Ovid’s sensuous and witty poem.&lt;/p&gt;
+&lt;p&gt;In Metamophoses, Ovid brings together a dazzling array of mythological tales, ingeniously linked by the idea of transformation—often as a result of love or lust—where men and women find themselves magically changed into new and sometimes extraordinary beings. Beginning with the creation of the world and ending with the deification of Augustus, Ovid interweaves many of the best-known myths and legends of ancient Greece and Rome, including Daedalus and Icarus, Pyramus and Thisbe, Pygmalion, Perseus and Andromeda, and the fall of Troy. Erudite but light-hearted, dramatic and yet playful, Metamorphoses has influenced writers and artists throughout the centuries from Shakespeare and Titian to Picasso and Ted Hughes. &lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:language>lat</dc:language>
+        <dc:subject>Fiction</dc:subject>
+        <dc:subject>Classics</dc:subject>
+        <dc:subject>Literary</dc:subject>
+        <dc:subject>Literary Criticism</dc:subject>
+        <dc:subject>Poetry</dc:subject>
+        <dc:subject>Ancient &amp; Classical</dc:subject>
+        <dc:subject>Epic</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Ovidius&quot;: &quot;&quot;}"/>
+        <meta name="calibre:rating" content="10"/>
+        <meta name="calibre:timestamp" content="2022-02-25T15:32:23.409122+00:00"/>
+        <meta name="calibre:title_sort" content="Metamorphoseon"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Couverture" href="Metamorphoseon - Ovidius.jpg"/>
+    </guide>
+</package>
