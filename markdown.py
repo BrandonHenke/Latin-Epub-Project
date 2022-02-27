@@ -1,22 +1,25 @@
-file = open("Metamorphoseon.md")
+file = open("aeneid.md")
 
 content = file.readlines()
 file.close()
 
-print(len(content[0][-3:-1]))
+head = 0
+while content[head][0:4] != "## L":
+	head += 1
 
-for n in range(len(content)):
-	# print(line[-2:])
-	# if content[n][-3:-1] != "  ":
-	# 	if content[n][-1] == "\n":
-	# 		content[n] = content[n][:-1] + "  " + content[n][-1:]
-	# 	else:
-	# 		content[n] += " "
-	# content[n].replace("\t","&nbsp;") # 1 space tabs
-	# content[n].replace("\t","&ensp;") # 2 space tabs
-	content[n].replace("\t","&emsp;") # 4 space tabs
+line = 0
+for m in range(head,len(content)):
+	if content[m] != "\n":
+		line += 1
+		if content[m][0:4] == "## L":
+			line = 0
+		else:
+			if line%5==0:
+				content[m] = str(line) + ". " + content[m]
+			else:
+				content[m] = "- " + content[m]
 
 
-file = open("New.md","w")
+file = open("new.md","w")
 file.writelines(content)
 file.close()
